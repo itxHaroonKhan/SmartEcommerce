@@ -9,7 +9,7 @@ import Herob from "@/components/Herob";
 
 export default function Home() {
   return (
-    <div className="overflow-x-hidden">
+    <div>
       <Hero />
       <Herob />
       <ITA />
