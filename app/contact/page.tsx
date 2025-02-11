@@ -99,29 +99,32 @@ const ContactSection = () => {
           </div>
 
           {/* Features Section */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 bg-slate-100 p-28">
-            <div className="flex items-center space-x-4">
-              <GrTrophy className="w-10 h-10" />
-              <div>
-                <h4 className="text-lg font-semibold">High Quality</h4>
-                <p className="text-gray-600">Crafted from top materials</p>
-              </div>
-            </div>
-            <div className="flex items-center space-x-4">
-              <BsPatchCheck className="w-10 h-10" />
-              <div>
-                <h4 className="text-lg font-semibold">Warranty Protection</h4>
-                <p className="text-gray-600">Over 2 years</p>
-              </div>
-            </div>
-            <div className="flex items-center space-x-4">
-              <FaFaceGrinBeam className="w-10 h-10" />
-              <div>
-                <h4 className="text-lg font-semibold">24 / 7 Support</h4>
-                <p className="text-gray-600">Dedicated support</p>
-              </div>
-            </div>
-          </div>
+          <div className="bg-slate-100 py-10 px-6 sm:px-12 md:px-20 lg:px-28">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+    <div className="flex items-center space-x-3 sm:space-x-4">
+      <GrTrophy className="w-8 h-8 sm:w-10 sm:h-10 text-blue-600" />
+      <div>
+        <h4 className="text-base sm:text-lg font-semibold">High Quality</h4>
+        <p className="text-gray-600 text-sm sm:text-base">Crafted from top materials</p>
+      </div>
+    </div>
+    <div className="flex items-center space-x-3 sm:space-x-4">
+      <BsPatchCheck className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
+      <div>
+        <h4 className="text-base sm:text-lg font-semibold">Warranty Protection</h4>
+        <p className="text-gray-600 text-sm sm:text-base">Over 2 years</p>
+      </div>
+    </div>
+    <div className="flex items-center space-x-3 sm:space-x-4">
+      <FaFaceGrinBeam className="w-8 h-8 sm:w-10 sm:h-10 text-yellow-500" />
+      <div>
+        <h4 className="text-base sm:text-lg font-semibold">24 / 7 Support</h4>
+        <p className="text-gray-600 text-sm sm:text-base">Dedicated support</p>
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
       </div>
     </div>

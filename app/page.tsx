@@ -1,21 +1,21 @@
 
-import ITAMM4 from "@/components/Itam";
-import ITA from "@/components/prodect4";
-import ITAMM from "@/components/Prosect";
-import Pro from "@/components/3prodect";
 import Hero from "@/components/Hero";
-import Herob from "@/components/Herob";
+import BrandLogos from "@/components/BrandLogos";
+import ProductGrid from "@/components/productGrid";
+import Categories from "@/components/Categories";
+import StyleShowcase from "@/components/StyleShowcase";
+import ProductShowcase from "@/components/ProductShowcase";
 
 
 export default function Home() {
   return (
     <div>
       <Hero />
-      <Herob />
-      <ITA />
-      <Pro />
-      <ITAMM />
-      <ITAMM4 />
+      <BrandLogos />
+      <ProductGrid />
+      <Categories />
+      <StyleShowcase />
+      <ProductShowcase />
     </div>
   );
 }

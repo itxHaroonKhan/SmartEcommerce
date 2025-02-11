@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev --turbopack",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^12.4.2",
+    "module-name": "^0.0.1-security",
     "next": "15.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
